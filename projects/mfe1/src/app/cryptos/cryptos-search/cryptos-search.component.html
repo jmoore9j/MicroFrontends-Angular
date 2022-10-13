@@ -32,10 +32,11 @@
     <p>
       Ready to take your investments <em>to the moon?</em> Look no further than this coin guaranteed to increase in value by 10,000% by the end of the week.
     </p>
+    <p>Available balance: {{balance | currency}}</p>
   </mat-card-content>
   <mat-card-actions>
-    <button (click)="purchase()" mat-button>Purchase</button>
-    <button (click)="reset()" mat-button>Watch</button>
+    <button *ngIf="balance" (click)="reset()" mat-button>Purchase</button>
+    <button (click)="reset()" mat-button> Watch</button>
   </mat-card-actions>
 </mat-card>
 
