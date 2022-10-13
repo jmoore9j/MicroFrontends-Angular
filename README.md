@@ -1,10 +1,9 @@
 # Module Federation using @angular-architects/module-federation
 
 
+This repo is a course I did with ng-conf on MicroFrontends with Owen Mecham
 
-This repo is a course I did with ng-conf on microfrontends with Owen Mecham
-
-The @angular-architects/module-federation library gives some great boiler plate schematics to get started.
+The @angular-architects/module-federation library gives some great boiler plate schematics to get started with creating your microfrontend.
 Example:
 ng add @angular-architects/module-federation --project shell --port 5000
 
@@ -22,7 +21,7 @@ There are 2 microfrontends mfe1 and mfe2, along with a shared library wallet-lib
 3. start shell
    yarn start:shell
 
-  *** Insure that both mfe1 and mfe2 have compiled sucessfully before starting the shell app
+  *** Ensure that both mfe1 and mfe2 have compiled sucessfully before starting the shell app
 
 
 
